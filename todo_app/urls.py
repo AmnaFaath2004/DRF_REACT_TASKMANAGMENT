@@ -6,6 +6,6 @@ router = DefaultRouter()
 router.register(r'TodoView', TodoView, basename='TodoView')
 
 urlpatterns = [
-  path('api/', include(router.urls)),
+  path('', include(router.urls)),
 
 ]
